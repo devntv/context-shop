@@ -1,0 +1,126 @@
+.details{
+    position: relative;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 50px;
+    justify-content: space-around;
+    
+}
+
+.details .img-container{
+    color:khaki;
+    max-width: 600px;
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    margin: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 530px;
+}
+
+.details .img-container:hover{
+    background-size: 130%;
+    border: 1px solid rgb(242, 243, 248);
+    cursor: zoom-in;
+}
+
+.box-details{
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+}
+
+.box-details h2{
+    text-transform: uppercase;
+    color: var(--main-color);
+    letter-spacing: 2px;
+}
+
+.box-details h3{
+    color:rgb(37, 37, 37);
+  
+}
+
+.box-details p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+}
+
+.box-details button{
+    border: 1px solid #555;
+    outline: none;
+    background: #333;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+}
+
+.box-details .thumb img{
+    width: 50px;
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.color button, .sizes button{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.box-details .btnCart{
+    background-color: #f7bb5b;
+    padding: 16px 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 360px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+
+.box-details .btnCart:hover{
+    background-color: rgb(36, 191, 238);
+    transition: all .3s;
+    color: white;
+}
+
+
+@media (max-width: 900px){
+    .details{
+        flex-wrap: wrap;
+    }
+    .details .img-container{
+       width: 100%;
+       background-position: center;
+       background-size: cover;
+       height: 550px;
+    }
+}
+
+@media (max-width: 500px){
+    .details{
+      padding: 0;
+      flex-wrap: wrap;
+     
+    }
+    .box-details .thumb img{
+        width: 40px;
+       
+    }
+    .details .img-container{
+        height: 400px;
+    }
+}
