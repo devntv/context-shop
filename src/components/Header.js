@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 import Menu from './picsvg/bars-solid.svg'
-import Close from './picsvg/arrow-circle-right-solid.svg'
+import Close from './picsvg/arrow-circle-left-solid.svg'
 import Cart from './picsvg/cart.svg'
 import { Link } from 'react-router-dom'
 import {DataContext} from './DataContext/DataProvider'
@@ -31,10 +31,10 @@ const Header = () => {
             </div>
 
             <ul style={styleMenu}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/products">Products</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="">New/Fashion</Link></li>
+                <li><Link onClick={toggleMenu} to="/">Home</Link></li>
+                <li><Link onClick={toggleMenu} to="/products">Products</Link></li>
+                <li><Link onClick={toggleMenu} to="/about">About</Link></li>
+                <li><Link onClick={toggleMenu} to="">New/Fashion</Link></li>
                 <li>
                     <img src={Close} alt="close" width="30" className="menu" onClick={toggleMenu} />
                 </li>

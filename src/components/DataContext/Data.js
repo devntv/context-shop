@@ -12,7 +12,7 @@ export const Data = [
         "content": "Hướng dẫn bảo quản:  Không dùng hóa chất tẩy và Ủi ở nhiệt độ thích hợp, hạn chế dùng máy sấy.",
         "colors": ["#ac764d", "#dcd3ce" , "black", "#67676b"],
         "sizes": ["L", "XL","2XL"],
-        "price": "350.000",
+        "price": 350000,
         "count": 1
     },
 
@@ -29,7 +29,7 @@ export const Data = [
         "content": "Hướng dẫn bảo quản:  Không dùng hóa chất tẩy và Ủi ở nhiệt độ thích hợp, hạn chế dùng máy sấy.",
         "colors": ["black","#eeedf2", "#c4c7d3", "khaki"],
         "sizes": ["S", "M", "L", "XL"],
-        "price": "280.000",
+        "price": 280000,
         "count": 1
     },
 
@@ -46,7 +46,7 @@ export const Data = [
         "content": "Hướng dẫn bảo quản:  Không dùng hóa chất tẩy và Ủi ở nhiệt độ thích hợp, hạn chế dùng máy sấy.",
         "colors": ["#e8e8ea", "#e5c947","#264574", "#7f918c"],
         "sizes": ["XL", "L", "M", "XM", "LX"],
-        "price": "250.000",
+        "price": 250000,
         "count": 1
     },
 
@@ -63,7 +63,7 @@ export const Data = [
         "content": "Hướng dẫn bảo quản:  Không dùng hóa chất tẩy và Ủi ở nhiệt độ thích hợp, hạn chế dùng máy sấy.",
         "colors": ["#94a1c1", "#d8d8d8", "#3d3c41"],
         "sizes": ["28", "29", "30", "31", "32"],
-        "price": "180.000",
+        "price": 180000,
         "count": 1
     },
 
@@ -80,7 +80,7 @@ export const Data = [
         "content": "Hướng dẫn bảo quản:  Không dùng hóa chất tẩy và Ủi ở nhiệt độ thích hợp, hạn chế dùng máy sấy.  Giặt ở chế độ bình thường, với đồ có màu tương tự",
         "colors": ["black", "#f0f1f6", "#e7a943"],
         "sizes": ["M", "L", "XL"],
-        "price": "180.000",
+        "price": 180000,
         "count": 1
     },
 
@@ -97,7 +97,7 @@ export const Data = [
         "content": "Hướng dẫn bảo quản:  Không dùng hóa chất tẩy và Ủi ở nhiệt độ thích hợp, hạn chế dùng máy sấy.  Giặt ở chế độ bình thường, với đồ có màu tương tự",
         "colors": ["#787482", "#222127", "#6f6568", "#f0eff4"],
         "sizes": ["29", "30", "31", "32", "34"],
-        "price": "250.000",
+        "price": 250000,
         "count": 1
     }
 ]

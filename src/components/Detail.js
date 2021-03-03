@@ -13,6 +13,7 @@ export default function Detail() {
     const value = useContext(DataContext)
     const [products] = value.products
     const addCart = value.addCart
+    const [carts, setCarts] = value.carts
 
     const [indeximg, setIndeximg] = useState(0);
     const imgDiv = useRef();
